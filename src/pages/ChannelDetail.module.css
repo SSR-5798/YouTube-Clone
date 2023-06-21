@@ -1,0 +1,7 @@
+.channel {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  height: 300px;
+  width: 100%;
+  z-index: 10;
+}

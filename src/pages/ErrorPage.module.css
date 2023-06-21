@@ -1,0 +1,55 @@
+.backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.76);
+  z-index: 10;
+}
+
+.modal-overlay {
+  position: fixed;
+  width: 26rem;
+  height: 10rem;
+  padding: 2rem;
+  z-index: 20;
+  background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: calc(50% - 7rem);
+  left: calc(50% - 15rem);
+  animation: 0.5s ease-out;
+}
+
+.modal-overlay h1 {
+  color: #191919;
+  text-align: center;
+  font-weight:600;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.actions{
+    float: right;
+    cursor: pointer;
+    padding: 15px 20px;
+    background-color:rgb(241, 13, 62);
+    color:white;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 76, 0.753);;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px 10px 0 0;
+}
+
+.actions:hover,
+.actions:active{
+    background-color: rgba(255, 0, 0, 0.932);
+}
+
+@keyframes identifier {
+  
+}
