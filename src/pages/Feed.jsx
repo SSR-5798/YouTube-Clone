@@ -33,9 +33,9 @@ const Feed = () => {
         </Typography>
       </Box>
       <Box sx={{ml: { md:"20px"}}}>
-        <Typography variant="h4" sx={{ color: "white", fontWeight: "bold", my:"20px" }}>
+        <Box color="white" fontFamily="Eczar" sx={{fontSize:{xs:"1.8rem", md:"2.2rem"}, textAlign:{xs:"center", md:"left"}}}>
           {selectedCategory}<span style={{color:"red"}}> videos</span>
-        </Typography>
+        </Box>
         <Videos videos={videos}/>
       </Box>
     </Stack>

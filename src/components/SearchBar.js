@@ -29,7 +29,7 @@ const SearchBar = () => {
 
   return (
     <Paper component="form" onSubmit={submitHandler} sx={{borderRadius:15, border:"1px solid #e3e3e3", mr:{ sm : 5}, p:1}}>
-        <input type="text" onChange={changeHandler} value={filteredText} className='search-bar' placeholder='Search..'/>
+        <input type="text" onChange={changeHandler} value={filteredText} className='search-bar' placeholder='Search..' style={{fontFamily:"Eczar", letterSpacing:"0.7px"}}/>
         <IconButton type="submit" sx={{p:"5px", color:"red"}}><Search/></IconButton>
     </Paper>
   )

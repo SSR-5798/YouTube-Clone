@@ -32,7 +32,7 @@ const SideBar = ({category, setSelectedCategory}) => {
           <span style={{ color: e.name === category ? "white" : "red", marginRight: "10px",}}>
             {e.icon}
           </span>
-          <span style={{ color: "white", fontFamily:"Libre Baskerville", letterSpacing: "0.5px" }}>{e.name}</span>
+          <span style={{ color: "white", fontFamily:"Libre Baskerville", letterSpacing: "0.8px" }}>{e.name}</span>
         </button>
       );
     })}
